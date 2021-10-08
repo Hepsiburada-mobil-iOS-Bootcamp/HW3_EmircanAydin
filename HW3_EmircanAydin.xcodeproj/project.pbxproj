@@ -16,6 +16,7 @@
 		90C828352710E55B00A8C356 /* HW3_EmircanAydinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C828342710E55B00A8C356 /* HW3_EmircanAydinTests.swift */; };
 		90C8283F2710E55B00A8C356 /* HW3_EmircanAydinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C8283E2710E55B00A8C356 /* HW3_EmircanAydinUITests.swift */; };
 		90C828412710E55B00A8C356 /* HW3_EmircanAydinUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C828402710E55B00A8C356 /* HW3_EmircanAydinUITestsLaunchTests.swift */; };
+		90C8284F2710E74E00A8C356 /* DefaultNetworkOperationPackage in Frameworks */ = {isa = PBXBuildFile; productRef = 90C8284E2710E74E00A8C356 /* DefaultNetworkOperationPackage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90C8284F2710E74E00A8C356 /* DefaultNetworkOperationPackage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +145,9 @@
 			dependencies = (
 			);
 			name = HW3_EmircanAydin;
+			packageProductDependencies = (
+				90C8284E2710E74E00A8C356 /* DefaultNetworkOperationPackage */,
+			);
 			productName = HW3_EmircanAydin;
 			productReference = 90C8281A2710E55500A8C356 /* HW3_EmircanAydin.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +220,9 @@
 				Base,
 			);
 			mainGroup = 90C828112710E55500A8C356;
+			packageReferences = (
+				90C8284D2710E74E00A8C356 /* XCRemoteSwiftPackageReference "DefaultNetworkOperationPackage" */,
+			);
 			productRefGroup = 90C8281B2710E55500A8C356 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -624,6 +632,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		90C8284D2710E74E00A8C356 /* XCRemoteSwiftPackageReference "DefaultNetworkOperationPackage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/erkutbas/DefaultNetworkOperationPackage";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		90C8284E2710E74E00A8C356 /* DefaultNetworkOperationPackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 90C8284D2710E74E00A8C356 /* XCRemoteSwiftPackageReference "DefaultNetworkOperationPackage" */;
+			productName = DefaultNetworkOperationPackage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 90C828122710E55500A8C356 /* Project object */;
 }
