@@ -2,7 +2,7 @@
 //  CustomImageViewComponentContainer.swift
 //  ios_Week_3
 //
-//  Created by EmircanAydin on 08.10.2021.
+//  Created by EmircanAydin on 8.10.2021.
 //
 
 import UIKit

@@ -2,7 +2,7 @@
 //  TabBarImages.swift
 //  Week_3
 //
-//  Created by Erkut Bas on 08.10.2021.
+//  Created by Erkut Bas on 8.10.2021.
 //
 
 import UIKit
